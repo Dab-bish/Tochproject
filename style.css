@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #c5a8c8, #b798ce, #9e8ad6, #7681e1, #127aeb);
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    background-image: linear-gradient(to right top, #c8a8a8, #e3ab8e, #ddba6b, #add35f, #12eb89);
+    height: 200px;
+}
+
+button{
+
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+#purple_btn{
+    background-color: violet;
+}
+
+#green_btn{
+    background-color: green;
+}
+
+#yellow_btn{
+    background-color: yellow;
+}
